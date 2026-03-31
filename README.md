@@ -69,10 +69,25 @@ jupyter notebook
 ---
 
 ## Results
-- Identification of most popular programs
-- Insights into user viewing behavior
-- Forecast of future watch time
-- Basic recommendation system for users
+- Series/Episodes account for **71%** of total watch time (255K hrs) vs Movies (29%)
+- SD streaming dominates Series content (**95%** of users), HD more prevalent in Movies (**68%**)
+- SARIMA model forecasts daily watch time for 60 future days, peak day: **Friday (794 hrs avg)**
+- Collaborative filtering recommendation system built across **11,578 users** and **8,013 programs**
+- Interactive Power BI dashboard built to visualize all findings
+
+  ---
+  
+## Power BI Dashboard
+Interactive dashboard covering:
+- KPI cards (total watch time, users, peak day)
+- Watch time forecast (Actual vs SARIMA)
+- HD vs SD breakdown
+- Series vs Movies comparison
+- Top 5 content recommendations
+
+<img width="1034" height="586" alt="STC Dashboard" src="https://github.com/user-attachments/assets/d22ad5e8-8515-4225-a70e-71dea75beabe" />
+
+
 
 ---
 
